@@ -28,7 +28,12 @@ html, body {
   color: #fff;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.nav li:hover {
+  color: teal;
 }
 
 .main {
