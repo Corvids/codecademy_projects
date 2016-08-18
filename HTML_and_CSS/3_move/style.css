@@ -26,7 +26,10 @@ p {
 }
 
 .main h1 {
-  margin:0px;
+  color: #fff;
+  margin: 0 auto;
+  padding: 100px 0 0 0;
+  font-size: 150px;
 }
 
 .main h1 {
@@ -129,8 +132,8 @@ p {
   color: #fff;
   font-size: 40px;
   margin: 0;
-  padding:50px 0 0;
   text-align: center;
+  padding: 220px 0 0 0;
 }
 
 /* Footer */
@@ -150,6 +153,7 @@ p {
   margin: 0 0 20px 0;
   padding:50px 0 0;
   text-align: center;
+  padding: 200px 0 0 0;
 }
 
 .footer p {
