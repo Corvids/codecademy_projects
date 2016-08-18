@@ -17,19 +17,23 @@ p {
 
 /* Main */
 .main {
+  text-align: center;
   height: 600px;
   background: url(https://s3.amazonaws.com/codecademy-content/projects/move/bg.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  text-align: center;
+}
+
+.main h1 {
+  margin:0px;
 }
 
 .main h1 {
   font-size: 150px;
   color: #fff;
   text-align: center;
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 
 .main p {
@@ -46,6 +50,27 @@ p {
   padding: 10px 25px 10px 25px;
   text-decoration: none;
   text-align: center;
+  margin-top: 50px;
+}
+
+.btn-main:hover {
+  color: #000;
+  background-color: #FFA500;
+}
+
+.btn-supporting {
+  font-size: 18px;
+  color: #1A1A1A;
+  background-color: #fff;
+  padding: 10px 25px 10px 25px;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.btn-supporting:hover {
+  color: #000;
+  background-color: #FFA500;
 }
 
 
@@ -66,7 +91,7 @@ p {
 .supporting h2 {
   color: #ffa800;
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 0 auto;
 }
 
 .clearfix {
@@ -93,6 +118,10 @@ p {
 .feature {
   height: 600px;
   background: url(https://s3.amazonaws.com/codecademy-content/projects/move/feature.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
 }
 
 .feature h1,
@@ -107,6 +136,11 @@ p {
 /* Footer */
 .footer {
   height: 600px;
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/move/footer.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
 }
 
 .footer h1,
@@ -115,6 +149,7 @@ p {
   font-size: 40px;
   margin: 0 0 20px 0;
   padding:50px 0 0;
+  text-align: center;
 }
 
 .footer p {
