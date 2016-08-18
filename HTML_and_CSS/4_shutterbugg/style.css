@@ -70,6 +70,11 @@ a {
   padding: 20px 0px 80px;
 }
 
+.footer h3{
+  font-size: 18px;
+  color: #555555;
+}
+
 .footer ul {
   list-style-type: none;
   padding-left: 0;
@@ -78,6 +83,7 @@ a {
 .footer li {
   color: #999;
   font-weight: 600;
+  font-size: 15px;
 }
 
 @media (max-width: 500px) {
