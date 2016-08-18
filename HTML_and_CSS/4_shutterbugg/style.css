@@ -29,11 +29,15 @@ a {
   background-color: rgba(238,68,95,0.9);
   padding: 8px 30px;
   border-radius: 5px;
-  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  opacity: 0.95;
 }
 
 .btn-main:hover {
-
+  text-decoration: none;
+  color: #fff;
+  opacity: none;
+  box-shadow: 5px 5px 15px #D3D3D3;
 }
 
 .main p {
@@ -46,6 +50,12 @@ a {
   padding-top: 50px;
   padding-bottom: 50px;
   border-bottom: 1px solid #dbdbdb;
+}
+
+.section p {
+  font-size: 26px;
+  font-weight: 200;
+  margin-bottom: 40px;
 }
 
 .store {
