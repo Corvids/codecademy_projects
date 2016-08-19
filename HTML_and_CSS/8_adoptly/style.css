@@ -4,43 +4,42 @@ html, body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0;
+}
+
 /* navigation */
 /* Header */
 .header {
-  background-color: #30627E;
-  color: #FFFFFF;
-  height: 80px;
+	background-color: #30627E;
 }
 
-.nav {
-  margin-top: 25px;
-  text-align: center;
-}
 
-.header {
-  margin: 0;
-  padding: 0;
+.header ul {
   text-align: center;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .header li {
-  display:inline;
-  color: #FFFFFF;
-  font-size: 20px;
-  text-decoration: none;
-  padding: 28px 30px 18px;
+	font-size: 20px;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  padding: 20px 30px;
   margin: 0;
 }
 
-.nav li:hover {
-  text-decoration: none;
-  color: #56A6C1;
+.header li:hover {
+  background-color: #92C9CF;
 }
 
-.header .logo {
+.header .main {
+	font-size: 28px;
   background-color: #e52364;
-  font-size: 28px;
 }
 
 /* jumbotron */
