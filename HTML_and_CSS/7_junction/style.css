@@ -60,14 +60,44 @@ html, body {
 .supporting {
   margin-top: 40px;
   text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  padding-bottom: 50px;
+}
+
+.supporting .col-md-4 {
+  text-align: center;
+  color: #fff;
+}
+
+.supporting h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+
+.supporting p {
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
 }
 
 .supporting img {
   height: 128px;
-  display: center;
+  width: 128px;
 }
 
-.supporting h2, p {
-  color: #fff;
+/* bottom join button */
+.btn-join {
   text-align: center;
+}
+
+.btn-join .btn {
+  margin: 5px 20px;
+  background-color: rgba(0,255,188,0.5);
+  color: #fff;
+}
+
+.btn-join .btn:hover {
+  padding: 5px 20px;
+  background-color: rgba(0,0,0,.5);
+  color: #fff;
 }
