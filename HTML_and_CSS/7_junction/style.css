@@ -4,9 +4,8 @@ html, body {
   font-family: 'Merriweather', serif;
   /* bg image */
   background:url(https://s3.amazonaws.com/codecademy-content/projects/junction/bg.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover
+    background-size: cover;
+
 }
 
 .container {
@@ -33,9 +32,9 @@ html, body {
 
 .nav li {
   display:inline;
-  font-size:1 em;
-  padding-left: 20px;
-  padding-right: 20px;
+  font-size: 1em;
+  padding-left: 15px;
+  padding-right: 15px;
   color: #fff;
 }
 
@@ -49,6 +48,12 @@ html, body {
   position: relative;
   top: 50px;
   text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  opacity: 0;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  text-align: center;
 }
 
 /* Supporting */
