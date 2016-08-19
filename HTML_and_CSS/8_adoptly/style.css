@@ -14,16 +14,13 @@ html, body {
 
 .nav {
   margin-top: 25px;
-
+  text-align: center;
 }
 
-/*
-.nav .btn-logo {
+.header .btn-logo {
+	font-size: 28px;
   background-color: #E52364;
-  height: auto;
-  width: auto;
 }
-*/
 
 .nav li {
   display:inline;
