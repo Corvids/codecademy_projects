@@ -55,10 +55,6 @@ html, body {
 
 }
 
-/* rows */
-.row {
-
-}
 
 /* container */
 .container {
@@ -80,6 +76,37 @@ html, body {
   outline: #30627E solid 1px;
   padding: 5px 50px;
 }
+
+.supporting p {
+  padding-bottom: 25px;
+  font-size: 13px;
+}
+
+.supporting .col-md-4{
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+
+/* footer */
+.footer {
+	color: #fff;
+  background-color: #e52364;
+  padding: 20px;
+}
+
+.copyright {
+  float: right;
+}
+
+.nav-copyright li {
+	color: #fff;
+  padding-left: 10px;
+  text-decoration: none;
+  display: inline;
+}
+
+
+/* media */
 
 @media (max-width: 500px) {
   ul li {
