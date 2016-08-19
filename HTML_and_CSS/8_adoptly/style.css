@@ -9,23 +9,26 @@ html, body {
 .header {
   background-color: #30627E;
   color: #FFFFFF;
-  height: 50px;
+  height: 80px;
 }
 
 .nav {
   margin-top: 25px;
+  
 }
 
+/*
 .nav .btn-logo {
   background-color: #E52364;
   height: auto;
   width: auto;
 }
+*/
 
 .nav li {
   display:inline;
   color: #FFFFFF;
-  font-size: 40px;
+  font-size: 30px;
   padding-right: 25px;
 }
 
