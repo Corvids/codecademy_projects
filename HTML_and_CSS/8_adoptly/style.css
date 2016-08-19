@@ -4,6 +4,37 @@ html, body {
   font-family: 'Montserrat', sans-serif;
 }
 
+/* navigation */
+/* Header */
+.header {
+  background-color: #30627E;
+  color: #FFFFFF;
+  height: 50px;
+}
+
+.nav {
+  margin-top: 25px;
+}
+
+.nav .btn-logo {
+  background-color: #E52364;
+  height: auto;
+  width: auto;
+}
+
+.nav li {
+  display:inline;
+  color: #FFFFFF;
+  font-size: 40px;
+  padding-right: 25px;
+}
+
+.nav li:hover {
+  text-decoration: none;
+  background-color: #56A6C1;
+}
+
+/* container */
 .container {
   max-width: 940px;
   margin: 0 auto;
