@@ -16,19 +16,32 @@ html, body {
 
 /* Header */
 .header {
-  padding: 10px 0;
   background-color: rgba(0,0,0,.5);
-  font-size:1 em;
   color: #FFFFFF;
-  background-color: rgba(0,0,0,.5);
 }
 
-.header .logo {
+.logo {
   height: 30px;
+  float: left;
+  margin: 15px;
+  margin-right: 5px;
 }
 
-. nav {
-  padding-top: 20px;
+.nav {
+  margin-top: 17px;
+}
+
+.nav li {
+  display:inline;
+  font-size:1 em;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+}
+
+.nav li:hover {
+  text-decoration: underline;
+  color: rgba(0,255,188,0.5);
 }
 
 /* Jumbotron */
