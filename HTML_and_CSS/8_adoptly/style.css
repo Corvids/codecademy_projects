@@ -17,22 +17,30 @@ html, body {
   text-align: center;
 }
 
-.header .btn-logo {
-	font-size: 28px;
-  background-color: #E52364;
+.header {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style: none;
 }
 
-.nav li {
+.header li {
   display:inline;
   color: #FFFFFF;
-  font-size: 30px;
-  padding-right: 25px;
+  font-size: 20px;
   text-decoration: none;
+  padding: 28px 30px 18px;
+  margin: 0;
 }
 
 .nav li:hover {
   text-decoration: none;
-  background-color: #56A6C1;
+  color: #56A6C1;
+}
+
+.header .logo {
+  background-color: #e52364;
+  font-size: 28px;
 }
 
 /* jumbotron */
