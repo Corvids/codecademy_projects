@@ -55,11 +55,30 @@ html, body {
 
 }
 
+/* rows */
+.row {
+
+}
+
 /* container */
 .container {
   max-width: 940px;
   margin: 0 auto;
   padding: 0;
+}
+
+/* supporting */
+.supporting {
+  text-align: center;
+  padding: 35px 20px;
+}
+
+.supporting .btn {
+  text-transform: uppercase;
+  color: #33336C;
+  background-color: #fff;
+  outline: #30627E solid 1px;
+  padding: 5px 50px;
 }
 
 @media (max-width: 500px) {
