@@ -91,13 +91,12 @@ html, body {
 }
 
 .btn-join .btn {
-  margin: 5px 20px;
+  padding: 12px 60px;
   background-color: rgba(0,255,188,0.5);
   color: #fff;
 }
 
 .btn-join .btn:hover {
-  padding: 5px 20px;
   background-color: rgba(0,0,0,.5);
   color: #fff;
 }
