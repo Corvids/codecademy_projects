@@ -42,8 +42,10 @@ html, body {
   font-weight: 300;
   padding: 16px 26px;
   text-decoration: none;
-  left: 50%;
-  margin-right: 50%;
+}
+
+.btn:hover {
+  background-color: #00b200;
 }
 
 
