@@ -1,4 +1,46 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-color:#161718;
+  color: #fff;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+/*jumbotron */
+
+.jumbotron {
+  background: url(bg.jpg) no-repeat center center;
+  background-size: cover;
+  background-color: transparent;
+  height: 560px;
+}
+
+/* Header */
+.header, .header a {
+  color: #fff;
+}
+
+.header li {
+  display: inline-block;
+  margin-left: 13px;
+  margin-top: 40px;
+}
+
+.header a {
+  padding: 15px;
+  font-weight:bold;
+}
+
+.header .btn-default {
+  border:0px;
+  border-radius: 0;
+  padding: 8px 30px;
+  background-color:#ff003d;
+}
+
+.main h1 {
+  padding-top:60px;
 }
