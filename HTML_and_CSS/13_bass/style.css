@@ -41,6 +41,60 @@ html, body {
   background-color:#ff003d;
 }
 
+/* Main */
+.main {
+  color: #fff;
+}
+
 .main h1 {
   padding-top:60px;
+}
+
+/* Supporting */
+.supporting-1,
+.supporting-2,
+.supporting-3,
+.supporting-4 {
+  padding: 70px 30px;
+  background-color:#161718;
+}
+
+.supporting-2 {
+  background-color: #000;
+}
+
+.supporting-4 {
+  background: url(feature.jpg) no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  height:400px;
+}
+
+.supporting-4 h2 {
+  margin-top:80px;
+}
+
+ /* Footer */
+ .footer {
+   background-color: #000;
+   color: #fff;
+   padding: 50px 0 35px 0;
+}
+
+.footer h3 {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+.footer a {
+  color: #aaa;
+  font-size: 13px;
+  display: inline-block;
+  padding: 5px 0;
 }
