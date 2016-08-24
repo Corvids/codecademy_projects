@@ -1,0 +1,7 @@
+Requirements
+
+- A header section that contains your name, logo (optional) and a navbar.
+- A footer section that will include useful links (i.e., links to your Twitter or LinkedIn pages).
+- A homepage with a main section that features samples from your portfolio (it’s okay if you don’t have any other projects to show off yet. You can make thumbnails that say “Coming Soon!”).
+- An “About Me” page.
+- Your homepage and “About Me” page will be navigable from your navbar.
