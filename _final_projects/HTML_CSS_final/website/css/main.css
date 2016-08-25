@@ -4,7 +4,48 @@ html, body {
   font-family: 'Lato', sans-serif;
 }
 
-@media (max-width: 500px) {
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+/* header and navigation */
+.header {
+  padding: 40px;
+}
+
+.header h1 {
+  margin: 0;
+  padding: 4px 0 0 0;
+  font-size: 20px;
+}
+
+.nav {
+  float: right;
+  width: 340px;
+}
+
+.nav-pills li a {
+  color: #d8192f;
+  border: 1px solid #d8192f;
+  margin-left: 10px;
+  text-align: center;
+  width: 100px;
+}
+
+.nav-pills li.active a,
+.nav-pills li.active a:hover,
+.nav-pills li a:hover,
+.section .btn:hover {
+  background-color: rgba(216, 25, 47, 1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+  color: #fff;
+}
+
+
+/****/
+
+@media (max-width: 940px) {
   .header h1 {
     text-align: center;
   }
