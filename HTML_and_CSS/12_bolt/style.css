@@ -3,7 +3,7 @@ html, body {
   font-weight: 300;
   margin: 0;
   padding: 0;
-  background-image:url(https://s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png);
+  background-image:url(diagmonds_@2X.png);
   background-size:141px 142px;
 }
 
@@ -114,7 +114,7 @@ form {
 
 /* Feature */
 .feature {
-  background: url(https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg) no-repeat center center;
+  background: url(feature.jpg) no-repeat center center;
   background-size: cover;
   height: 380px;
   padding: 100px 0 0 0;
