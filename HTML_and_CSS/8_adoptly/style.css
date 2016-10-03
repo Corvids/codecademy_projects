@@ -43,7 +43,7 @@ html, body {
 /* jumbotron */
 .jumbotron {
   margin: 0;
-  background: url( https://s3.amazonaws.com/codecademy-content/projects/adoptly/bg.jpg) no-repeat center center;
+  background: url(bg.jpg) no-repeat center center;
   background-size: cover;
   height: 500px;
 }
