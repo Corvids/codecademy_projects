@@ -26,7 +26,7 @@ html, body {
 
 /* body */
 body {
-  background-image:url(https://s3.amazonaws.com/codecademy-content/projects/pocketbook/bg.jpg);
+  background-image:url(bg.jpg);
   background-size:cover;
   background-repeat:no-repeat;
 }
