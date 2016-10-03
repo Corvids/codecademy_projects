@@ -19,7 +19,7 @@ p {
 .main {
   text-align: center;
   height: 600px;
-  background: url(https://s3.amazonaws.com/codecademy-content/projects/move/bg.jpg);
+  background: url('bg.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -120,7 +120,7 @@ p {
 /* Feature */
 .feature {
   height: 600px;
-  background: url(https://s3.amazonaws.com/codecademy-content/projects/move/feature.jpg);
+  background: url('feature.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -139,7 +139,7 @@ p {
 /* Footer */
 .footer {
   height: 600px;
-  background: url(https://s3.amazonaws.com/codecademy-content/projects/move/footer.jpg);
+  background: url('footer.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
