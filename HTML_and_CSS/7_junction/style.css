@@ -3,7 +3,7 @@ html, body {
   padding: 0;
   font-family: 'Merriweather', serif;
   /* bg image */
-  background: url(https://s3.amazonaws.com/codecademy-content/projects/junction/bg.jpg);
+  background: url(bg.jpg);
     background-size: cover;
 }
 
