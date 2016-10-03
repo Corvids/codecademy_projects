@@ -73,7 +73,7 @@ html, body {
 
 .feature {
   height: 500px;
-  background: url(https://s3.amazonaws.com/codecademy-content/projects/excursion/camp.png);
+  background: url(camp.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
