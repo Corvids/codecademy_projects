@@ -152,6 +152,14 @@ a.btn:hover {
   color:#000;
 }
 
+#search {
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    width: 300px;
+}
+
 ul.ui-autocomplete {
   width: 300px;
   list-style: none;

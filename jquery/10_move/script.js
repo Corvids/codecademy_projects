@@ -5,7 +5,7 @@ var main = function() {
                 'Los Angeles', 'Kolkata', 'Moscow', 'Cairo',
                 'Buenos Aires', 'London', 'Beijing', 'Karachi'];
 
-  $( "#search" ).autocomplete({source: cities });
+  $("#search").autocomplete({ source: cities });
 };
 
 $(document).ready(main);
